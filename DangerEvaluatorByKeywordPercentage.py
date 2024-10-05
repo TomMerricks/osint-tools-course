@@ -41,5 +41,6 @@ DangerousKeywordPercentage = round((sum(Dangerous_Counts.values()) / Total_Count
 print("Safe Hashtag counts:", Safe_Counts, "Safe percentage of Words used:", SafeKeywordPercentage, "%")
 print("Dangerous Hashtag counts:", Dangerous_Counts, "Dangerous percentage of Words used:", DangerousKeywordPercentage, "%")
 
+#If the suspect has a percentage of Dangerous Keywords above 30% it will flag this suspect as potentially dangerous
 if(DangerousKeywordPercentage > 33.3):
     print("This suspect is classified as potentially dangerous.")
