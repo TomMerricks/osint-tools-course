@@ -29,14 +29,12 @@ print(suspect_database["S3"]["charges"])
 
 suspect_database["S1"]["charges"].append("Resisting Arrest")
 
-suspect_4 = {
+suspect_database["S4"] = suspect_4 = {
     "name": "Micah Henry",
     "age": "32",
     "address": "67 Straight Road",
     "charges": ["Jaywalking", "Theft"]
 }
-
-suspect_database["S4"] = suspect_4
 
 del suspect_database["S1"]
 
